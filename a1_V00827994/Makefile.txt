@@ -1,0 +1,7 @@
+all: PMan.c
+	gcc PMan.c -o PMan
+	gcc inf.c -o inf
+	./PMan
+
+clean: 
+	-rm -rf *.o *.exe

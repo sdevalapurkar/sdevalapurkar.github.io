@@ -1,0 +1,21 @@
+/* css components of the popups for the application */
+
+.popup-title{
+    color: #fff;
+}
+
+.popup-title.ng-binding{
+    color: dodgerblue;
+    font-size: 24px;
+}
+
+.popup-body{
+    height: 80px;
+    background: white;
+    color: dodgerblue;
+    font-size: 18px;
+}
+
+.popup-buttons{
+    background-color: whitesmoke;
+}

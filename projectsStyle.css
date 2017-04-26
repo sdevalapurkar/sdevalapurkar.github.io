@@ -1,0 +1,228 @@
+/*
+    Author: Shreyas Devalapurkar
+    Personal Website CSS
+*/
+
+body {
+    background-color: aliceblue;
+    color: #000305;
+    font-size: 87.5%; /* Typical base font size is 14px */
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: navy;
+}
+
+a:hover, a:active {
+    background-color: navy;
+    color: white;
+}
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+.mainheader img {
+    width: 30%;
+    height: auto;
+    margin: 2% 0;
+    float: center;
+}
+
+.mainheader nav {
+    background-color: cornflowerblue;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainheader nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainheader nav ul li {
+    float: left;
+    display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+    color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited {
+    background-color: navy;
+    text-shadow: none;
+}
+
+.mainheader nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainContent {
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.content {
+    width: 100%; /*allow space for sidebars */
+    float: left;
+}
+
+.topcontent {
+    background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    padding: 3% 5%;
+    margin-top: 2%; 
+    margin-bottom: 0.75%;
+}
+
+.bottomcontent {
+    background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;   
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.post-info {
+    font-style: italic;
+    color: darkgray;
+    font-size: 85%;
+}
+
+.mainFooter {
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    background-color: cornflowerblue;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.mainFooter p {
+    width: 92%;
+    margin: 1% auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    color: white;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+    table {
+        display: none;
+    }
+    
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+
+    .mainheader img {
+        width: 100%;
+    }
+    
+    .mainheader nav {
+        height: 240px;
+        margin-top: 15px;
+    }
+
+    .mainheader nav ul {
+        padding-left: 0;
+    }
+
+    .mainheader nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainheader nav a:link, .mainheader nav a:visited {
+        padding: 10px 25px;
+        height: 20px;
+        display: block;
+    }
+
+    .mainContent {
+        line-height: 28px;
+    }
+
+    .content {
+        width: 100%;
+        float: left;
+        margin-top: 2%;
+    }
+
+    .post-info {
+        display: none;
+    }
+    
+    .topcontent {
+        background-color: white;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px; 
+        padding: 3% 5%;
+        margin-top: 2%; 
+        margin-bottom: 4%;
+    }
+
+    .bottomcontent {
+        margin-top: 3%;
+    }
+     
+    .top-sidebar {
+        width: 94%;
+        float: left;
+        background-color: white;
+        margin-top: 1.5%;
+        margin-left: 0;
+        margin-bottom: 2%;
+        padding: 2% 3%;
+    }
+
+    .middle-sidebar {
+        width: 94%;
+        float: left;
+        background-color: white;
+        margin-top: 1.5%;
+        margin-left: 0;
+        margin-bottom: 2%;
+        padding: 2% 3%;
+    }
+
+    .bottom-sidebar {
+        width: 94%;
+        float: left;
+        background-color: white;
+        margin-top: 1.5%;
+        margin-left: 0;
+        margin-bottom: 2%;
+        padding: 2% 3%;
+    }
+    
+}
+

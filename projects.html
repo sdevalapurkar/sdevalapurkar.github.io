@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shreyas Devalapurkar's Personal Website</title>
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="projectsStyle.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+
+    <header class="mainheader">
+
+    <table style="margin-top: 15px; margin-bottom: 15px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;" width="100%" border="0" cellspacing="0" cellpadding="0" >
+        <tbody>
+            <tr bgcolor="white">
+                <td style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;" rowspan="2" width="140" nowrap="nowrap">
+                    <center>
+                        <img style="height: 200px; width: 200px; margin-left: 6px; margin-top: 6px; margin-bottom: 0; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;" src="img/LinkedIn.JPG" alt="left header image" width="100" border="0">
+                    </center>
+                </td>
+                <td rowspan="2" width="50" nowrap="nowrap"></td>
+                <td height="55" nowrap="nowrap" valign="bottom">
+                    <span class="pageNameHeader" style="color: navy; font-size: 20px; font-weight: bold;">Shreyas Devalapurkar</span>
+                    <br>
+                </td>
+                <td rowspan="2" width="40" nowrap="nowrap"></td>
+                <td style="border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;" width="120" rowspan="2">
+                    <img style="height: 200px; width: 300px; margin-right: 6px; margin-top: 6px; margin-bottom: 3px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;" src="img/violinpic.JPG" alt="right header image" height="169" border="0">
+                </td>
+            </tr>
+            <tr bgcolor="white">
+                <td height="54" valign="top" nowrap="nowrap" bgcolor="white">
+                    <p class="bodyTextHeader">
+                        Student, Bachelor of Software Engineering
+                        <br>
+                        Faculty of Engineering
+                        <br>
+                        University of Victoria
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+        <nav><ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="projects.html">Projects</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="awards.html">Accomplishments</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul></nav>
+    </header>
+
+    <div class="mainContent">
+        <div class="content">
+
+          <article class="topcontent">
+              <header>
+                  <h2><a href="p2_2/MFS.c" title="Multi-Flow Task Scheduler">Multi-Flow Task Scheduler</a></h2>
+                  <p>
+                      Constructed a simulator of a router to schedule the transmission of incoming traffic flows.
+                  </p>
+
+                  <p>
+                      Learnt and used 3 important constructs within the POSIX PThread library: threads, mutexes, and condition variables.
+                  </p>
+
+                  <a href="p2_2/MFS.c"> Multi-Flow Scheduler </a>
+              </header>
+
+              <footer>
+                  <p class="post-info">Project by Shreyas Devalapurkar (October 2016)</p>
+              </footer>
+
+              <content>
+
+              </content>
+          </article>
+
+          <article class="topcontent">
+              <header>
+                  <h2><a href="a1_V00827994/PMan.c" title="Process Manager: PMan">Process Manager: PMan</a></h2>
+                  <p>
+                      Implemented a process manager in C that takes in user input and allows programs to be run in the background.
+                  </p>
+
+                  <p>
+                      Learnt and used system calls such as fork(), exec*(), kill(), and wait() to create, run, and terminate processes.
+                  </p>
+
+                  <a href="a1_V00827994/PMan.c"> Process Manager: PMan </a>
+              </header>
+
+              <footer>
+                  <p class="post-info">Project by Shreyas Devalapurkar (September 2016)</p>
+              </footer>
+
+              <content>
+
+              </content>
+          </article>
+
+            <article class="topcontent">
+                <header>
+
+                    <h2><a href="GPACalculatorApp/www/index.html" title="Ionic Framework: GPA Calculator">Ionic Framework: GPA Calculator</a></h2>
+                    <p>
+                        Students in school or university often have goals or external pressures of maintaining certain grades. A student's effort and time should be spent in achieving great grades, not figuring out what their overall grades and GPA are. That is why I created the GPA Calculator. This application allows you to simply enter as many courses as you wish with their names, your grades, and the credit hours for that course, and it calculates your overall GPA for you.
+                    </p>
+
+                    <p>
+                        So stop wasting time calculating your own grades. Start using the GPA Calculator today and make your life much easier.
+                    </p>
+
+                    <p>
+                        I created this application using the Ionic Framework. This is a hybrid mobile application available on both iOS and Android (however, not yet on their stores). The link to see how the application works will be available soon on the Google Play store or upon request.
+                    </p>
+
+                    <a href="GPACalculatorApp/www/index.html"> Ionic Framework: GPA Calculator </a>
+                </header>
+
+                <footer>
+                    <p class="post-info">Project by Shreyas Devalapurkar (August 2016)</p>
+                </footer>
+
+                <content>
+
+                </content>
+            </article>
+
+            <article class="topcontent">
+                <header>
+                    <h2><a href="#" title="SengGo">SengGo</a></h2>
+                    <p>
+                        SengGo is a web application version of the traditional Chinese game of Go. SengGo has the following features:
+
+                    <ul>
+                        <li> Play Go: Supports game play and enforces game rules/flow via a web GUI. The application can calculate the final score, and if there are scoring ambiguities (disputed territories), it will allow the human players to resolve the ambiguities. </li>
+                        <li> Hot Seat Play: Allow for human vs. human play via "hot seat" style play; i.e. two human players sharing one web browser may play against each other. </li>
+                        <li> Board Sizes: Allow users to choose the size of the board: 9x9, 13x13, or 19x19. </li>
+                        <li> External AI: Interoperate with an external AI system (already created) to support computer vs. human style play. </li>
+                        <li> User Accounts: Provide persistent accounts that permit the tracking of the user scores and wins/losses. </li>
+                        <li> Networked Play: Allow for human vs. human games to be played across the network (UVic Engineering Network), i.e. two players play against each other from different computers. </li>
+                        <li> Customizable Game Views: Users may select from a wide array of themes, which modifies the appearance of the board, tokens, and GUI. </li>
+                        <li> Game Replay: Allow users to replay (view only) a game once it is finished. </li>
+                    </ul>
+
+                    <p>
+                        For the creation of this application, there were some technical constraints that had to be adhered to:
+                    <ul>
+                        <li> Any server application code must be written in JavaScript and run in the NodeJS environment. </li>
+                        <li> Any front-end JavaScript frameworks such as AngularJS, Ember.js, Vue.js, or React.js may not be used. </li>
+                        <li> If a database is required, MongoDB must be used. </li>
+                        <li> A version control system such as Git must be used. Our group used GitHub. </li>
+                    </ul>
+
+                    <p>
+                        Unfortunately, the application cannot be accessed from this website. Since the application relies on being connected to the UVic Engineering Network, it will not be accessible. If you would like to view the application, please contact me and it can be arranged. Thank you and sorry for the inconvenience.
+                    </p>
+
+                    <a href="https://shrey999.github.io/contact.html">SengGo </a>
+                </header>
+
+                <footer>
+                    <p class="post-info">Project by Shreyas Devalapurkar, Justin Richard, William Grosset, Cailan St. Martin, and Wyll Brimacombe (August 2016)</p>
+                </footer>
+
+                <content>
+
+                </content>
+            </article>
+
+            <article class="topcontent">
+                <header>
+                    <h2><a href="robotVideo.mp4" title="VEX Robotics: Autonomous Radioactive Waste Clean-Up Robot">VEX Robotics: Autonomous Radioactive Waste Clean-Up Robot</a></h2>
+                    <p>
+                        An autonomous robot which was required to find and remove an object from a given area using IR sensors. The object was selected to be a metal bar, and the lifting mechanism was a simple magnet.
+                    </p>
+
+                    <p>
+                        A VEX Robotics kit was used to build the robot, and the RobotC language was used to create the software of the robot.
+                    </p>
+
+                    <p>
+                        A video of the final robot performing its task can be seen below.
+                    </p>
+
+                    <a href="robotVideo.mp4"> Video: Autonomous Radioactive Waste Clean-Up Robot </a>
+                </header>
+
+                <footer>
+                    <p class="post-info">Project by Shreyas Devalapurkar, Tameem Haddad, Alex Fattouche, and Rickus Senekal (April 2015)</p>
+                </footer>
+
+                <content>
+
+                </content>
+            </article>
+
+            <article class="topcontent">
+                <header>
+                    <h2><a href="http://circres.ahajournals.org/content/115/Suppl_1/A192.abstract" title="Scleraxis is a Required Component of the Cardiac Extracellular Matrix Gene Expression Program">Scleraxis is a Required Component of the Cardiac Extracellular Matrix Gene Expression Program</a></h2>
+                    <p>
+                        The collagenous cardiac extracellular matrix (ECM) reinforces the myocardium and facilitates intercellular communication, but excessive ECM production in fibrosis results in dysfunction and heart failure. The transcription factor scleraxis directly governs expression of type I fibrillar collagen in ECM-rich tissues including tendons and the heart. These data collectively identify scleraxis as a central and requisite transcriptional regulator of fibroblast phenotype and the ECM gene expression program in the heart, and provide rationale for the investigation of anti-scleraxis strategies to attenuate fibrosis in patients.
+                    </p>
+
+                    <p>
+                        This work was an abstract that was published in the Circulation Research section of the American Heart Association Journal. The work formed a preliminary basic for a future student's project. For further details about the abstract, please refer to the link below.
+                    </p>
+
+                    <a href="http://circres.ahajournals.org/content/115/Suppl_1/A192.abstract">Abstract: Scleraxis is a Required Component of the Cardiac Extracellular Matrix Gene Expression Program</a>
+                </header>
+
+                <footer>
+                    <p class="post-info">Publication by Shreyas Devalapurkar and others (2014)</p>
+                </footer>
+
+                <content>
+
+                </content>
+            </article>
+
+            <article class="topcontent">
+                <header>
+                    <h2><a href="Shreyas-CWSF2013%20project%20report.pdf" title="The Effect of Differential Molecular Weight Protein in Rescue of Oxidative Damage">The Effect of Differential Molecular Weight Protein in Rescue of Oxidative Damage</a></h2>
+                    <p>
+                        Oxidative stress is associated with diseases such as Alzheimer's and heart failure. This study investigates the variations in cell health in normal and oxidatively damaged cells under the influence of two proteins purified from damage-inflicted cells. Our findings suggest that low molecular weight protein can rescue cells from oxidative damage whereas the high molecular weight fraction elicits further damage to cells exposed to oxidative stress.
+                    </p>
+
+                    <p>
+                        For further details about the project, please refer to the project report. The link to this report is below.
+                    </p>
+
+                    <a href="Shreyas-CWSF2013%20project%20report.pdf">Project Report: The Effect of Differential Molecular Weight Protein in Rescue of Oxidative Damage</a>
+                </header>
+
+                <footer>
+                    <p class="post-info">Project Completed by Shreyas Devalapurkar (May 2013)</p>
+                </footer>
+
+                <content>
+
+                </content>
+            </article>
+
+            <article class="topcontent">
+                <header>
+                    <h2><a href="Shreyas-CWSF2012%20project%20report.pdf" title="The Effect of Oxidative Stress on Protein Profile of Cells">The Effect of Oxidative Stress on Protein Profile of Cells</a></h2>
+                    <p>
+                        Oxidative Stress is associated with many diseases. The causative reactive oxygen species (ROS) production causes cell death. Hydrogen peroxide is a potent inducer of oxidative stress, and causes alterations in biomolecule synthesis. This project investigates the variations in cellular protein profile in healthy and oxidatively damaged cells, and suggests the possibility of proteins with antioxidant-like properties being synthesized by the oxidatively damaged cells.
+                    </p>
+
+                    <p>
+                        For further details about the project, please refer to the project report. The link to this report is below.
+                    </p>
+
+                    <a href="Shreyas-CWSF2012%20project%20report.pdf">Project Report: The Effect of Oxidative Stress on Protein Profile of Cells</a>
+                </header>
+
+                <footer>
+                    <p class="post-info">Project Completed by Shreyas Devalapurkar (May 2012)</p>
+                </footer>
+
+                <content>
+
+                </content>
+            </article>
+
+
+        </div>
+    </div>
+
+    <footer class="mainFooter">
+        <p>Copyright &copy; <a href="#" title="shreyasdevalapurkar">shreyasdevalapurkar.com</a></p>
+    </footer>
+
+    <script src="profileWebsite.js"></script>
+
+</body>
+
+</html>
