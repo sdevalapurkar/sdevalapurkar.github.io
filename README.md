@@ -1,5 +1,6 @@
-# personal-website
-Personal Profile Website for displaying projects and other personal information, made from scratch using HTML and CSS (and Formspree) 
+# Old Personal Website
+
+Personal Profile Website for displaying projects and other personal information, made from scratch using HTML and CSS (and Formspree) - no longer maintained
 
 ## TODO
 
